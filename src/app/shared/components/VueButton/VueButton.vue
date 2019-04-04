@@ -194,6 +194,7 @@ export default {
     &:hover {
       background: map-get($values, 'hover-bg');
       color: map-get($values, 'hover-color');
+      border-color: map-get($values, 'hover-bg');
     }
 
     :global {

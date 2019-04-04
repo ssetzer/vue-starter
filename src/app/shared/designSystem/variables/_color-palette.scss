@@ -1,43 +1,68 @@
 $palette-colors: (
-  'coral': #f43b6c,
-  'blue': #063cbe,
-  'green': #0ca75f,
-  'yellow': #f3c811,
-  'red': #e84606,
-  'grey': #989da5,
+  'coral-10': #fff8fc,
+  'coral-20': #ffc8e0,
+  'coral-30': #ff92bb,
+  'coral-40': #fc6293,
+  'coral-50': #f43b6c,
+  'coral-60': #cd0940,
+  'coral-70': #b30636,
+  'coral-80': #94032b,
+  'coral-90': #70011f,
+  'coral-100': #4d0014,
+  'blue-10': #f2f9ff,
+  'blue-20': #d8ecfe,
+  'blue-30': #8dc3f9,
+  'blue-40': #61a6f3,
+  'blue-50': #3d8beb,
+  'blue-60': #216fe0,
+  'blue-70': #063cbe,
+  'blue-80': #0427a7,
+  'blue-90': #01158d,
+  'blue-100': #000873,
+  'green-10': #f4fff3,
+  'green-20': #c6f7c6,
+  'green-30': #65d682,
+  'green-40': #0ca75f,
+  'green-50': #0c8857,
+  'green-60': #096e4c,
+  'green-70': #045a3f,
+  'green-80': #004934,
+  'green-90': #003c2b,
+  'green-100': #003023,
+  'grey-10': #ffffff,
+  'grey-20': #ececee,
+  'grey-30': #989da5,
+  'grey-40': #7e8690,
+  'grey-50': #67717c,
+  'grey-60': #515c67,
+  'grey-70': #3d4752,
+  'grey-80': #2b343e,
+  'grey-90': #1b2129,
+  'grey-100': #0c1014,
+  'red-10': #fff4f4,
+  'red-20': #fdb5ac,
+  'red-30': #f9846c,
+  'red-40': #e84606,
+  'red-50': #da3300,
+  'red-60': #c82600,
+  'red-70': #b11900,
+  'red-80': #950e00,
+  'red-90': #770600,
+  'red-100': #570000,
+  'yellow-10': #fffaf2,
+  'yellow-20': #ffec95,
+  'yellow-30': #ffd953,
+  'yellow-40': #f3c811,
+  'yellow-50': #c9970c,
+  'yellow-60': #a56a01,
+  'yellow-70': #864800,
+  'yellow-80': #6c2c00,
+  'yellow-90': #561700,
+  'yellow-100': #440900,
 );
 
-@function colorMap($baseColors, $variations) {
-  $colors: ();
-
-  @each $color, $value in $baseColors {
-    $maxVar: 36;
-    $mid: $variations / 2;
-    $dist: $mid - 1;
-    $step: $maxVar / $dist;
-
-    @for $i from 1 through $dist {
-      $percent: $maxVar - ($step * ($i - 1));
-      $darken: ($variations - $i) * 100;
-      $lighten: $i * 100;
-
-      $colors: map-merge(
-        $colors,
-        (#{$color}-#{$lighten}: lighten($value, $percent), #{$color}-#{$darken}: darken($value, $percent))
-      );
-    }
-
-    // middle eg 500
-    $colors: map-merge($colors, (#{$color}-50: lighten($value, 38.7)));
-    $colors: map-merge($colors, (#{$color}-#{$variations/2 * 100}: $value));
-  }
-  @return $colors;
-}
-
-$color-map: colorMap($palette-colors, 10);
-
 @function palette-color($key) {
-  @return map-get($color-map, $key);
+  @return map-get($palette-colors, $key);
 }
 
 @function palette-color-level($color-name, $level) {

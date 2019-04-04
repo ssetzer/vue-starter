@@ -18,32 +18,32 @@ $space-52: $space-unit * 6.5; // 52px
 $space-84: $space-unit * 10.5; // 84px
 
 /* Brand Variations */
-$brand-default: palette-color-level('grey', 800);
-$brand-primary: palette-color-level('coral', 500);
-$brand-secondary: palette-color-level('blue', 500);
-$brand-success: palette-color-level('green', 500);
-$brand-warning: palette-color-level('yellow', 500);
-$brand-danger: palette-color-level('red', 600);
+$brand-default: palette-color-level('grey', 70);
+$brand-primary: palette-color-level('coral', 50);
+$brand-secondary: palette-color-level('blue', 50);
+$brand-success: palette-color-level('green', 40);
+$brand-warning: palette-color-level('yellow', 40);
+$brand-danger: palette-color-level('red', 50);
 
 /* Background Colors */
-$brand-bg-color: palette-color-level('grey', 50);
-$brand-bg-color-variant: palette-color-level('grey', 100);
-$brand-bg-color-inverse: palette-color-level('grey', 900);
-$brand-bg-color-variant-inverse: palette-color-level('grey', 700);
+$brand-bg-color: palette-color-level('grey', 10);
+$brand-bg-color-variant: palette-color-level('grey', 20);
+$brand-bg-color-inverse: palette-color-level('grey', 100);
+$brand-bg-color-variant-inverse: palette-color-level('grey', 80);
 
 /* Text Colors */
 $brand-text-color: #000;
-$brand-text-secondary-color: palette-color-level('grey', 700);
-$brand-text-color-inverse: #fff;
-$brand-text-secondary-color-inverse: palette-color-level('grey', 300);
+$brand-text-secondary-color: palette-color-level('grey', 60);
+$brand-text-color-inverse: palette-color-level('grey', 10);
+$brand-text-secondary-color-inverse: palette-color-level('grey', 30);
 
 /* Link Color */
-$brand-link-color: palette-color-level('blue', 500);
-$brand-link-hover-color: palette-color-level('blue', 700);
+$brand-link-color: palette-color-level('blue', 70);
+$brand-link-hover-color: palette-color-level('blue', 70);
 
 /* Border Colors */
-$brand-border-color: palette-color-level('grey', 200);
-$brand-border-color-inverse: palette-color-level('grey', 700);
+$brand-border-color: darken($brand-bg-color-variant, 10%);
+$brand-border-color-inverse: lighten($brand-bg-color-inverse, 18%);
 $brand-border-radius: $space-4;
 
 /* Box Shadows */

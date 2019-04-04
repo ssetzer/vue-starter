@@ -75,70 +75,70 @@ export default {
 }
 
 :export {
+  coral-coral-10: palette-color-level('coral', 10);
+  coral-coral-20: palette-color-level('coral', 20);
+  coral-coral-30: palette-color-level('coral', 30);
+  coral-coral-40: palette-color-level('coral', 40);
   coral-coral-50: palette-color-level('coral', 50);
+  coral-coral-60: palette-color-level('coral', 60);
+  coral-coral-70: palette-color-level('coral', 70);
+  coral-coral-80: palette-color-level('coral', 80);
+  coral-coral-90: palette-color-level('coral', 90);
   coral-coral-100: palette-color-level('coral', 100);
-  coral-coral-200: palette-color-level('coral', 200);
-  coral-coral-300: palette-color-level('coral', 300);
-  coral-coral-400: palette-color-level('coral', 400);
-  coral-coral-500: palette-color-level('coral', 500);
-  coral-coral-600: palette-color-level('coral', 600);
-  coral-coral-700: palette-color-level('coral', 700);
-  coral-coral-800: palette-color-level('coral', 800);
-  coral-coral-900: palette-color-level('coral', 900);
 
+  blue-blue-10: palette-color-level('blue', 10);
+  blue-blue-20: palette-color-level('blue', 20);
+  blue-blue-30: palette-color-level('blue', 30);
+  blue-blue-40: palette-color-level('blue', 40);
   blue-blue-50: palette-color-level('blue', 50);
+  blue-blue-60: palette-color-level('blue', 60);
+  blue-blue-70: palette-color-level('blue', 70);
+  blue-blue-80: palette-color-level('blue', 80);
+  blue-blue-90: palette-color-level('blue', 90);
   blue-blue-100: palette-color-level('blue', 100);
-  blue-blue-200: palette-color-level('blue', 200);
-  blue-blue-300: palette-color-level('blue', 300);
-  blue-blue-400: palette-color-level('blue', 400);
-  blue-blue-500: palette-color-level('blue', 500);
-  blue-blue-600: palette-color-level('blue', 600);
-  blue-blue-700: palette-color-level('blue', 700);
-  blue-blue-800: palette-color-level('blue', 800);
-  blue-blue-900: palette-color-level('blue', 900);
 
+  green-green-10: palette-color-level('green', 10);
+  green-green-20: palette-color-level('green', 20);
+  green-green-30: palette-color-level('green', 30);
+  green-green-40: palette-color-level('green', 40);
   green-green-50: palette-color-level('green', 50);
+  green-green-60: palette-color-level('green', 60);
+  green-green-70: palette-color-level('green', 70);
+  green-green-80: palette-color-level('green', 80);
+  green-green-90: palette-color-level('green', 90);
   green-green-100: palette-color-level('green', 100);
-  green-green-200: palette-color-level('green', 200);
-  green-green-300: palette-color-level('green', 300);
-  green-green-400: palette-color-level('green', 400);
-  green-green-500: palette-color-level('green', 500);
-  green-green-600: palette-color-level('green', 600);
-  green-green-700: palette-color-level('green', 700);
-  green-green-800: palette-color-level('green', 800);
-  green-green-900: palette-color-level('green', 900);
 
+  yellow-yellow-10: palette-color-level('yellow', 10);
+  yellow-yellow-20: palette-color-level('yellow', 20);
+  yellow-yellow-30: palette-color-level('yellow', 30);
+  yellow-yellow-40: palette-color-level('yellow', 40);
   yellow-yellow-50: palette-color-level('yellow', 50);
+  yellow-yellow-60: palette-color-level('yellow', 60);
+  yellow-yellow-70: palette-color-level('yellow', 70);
+  yellow-yellow-80: palette-color-level('yellow', 80);
+  yellow-yellow-90: palette-color-level('yellow', 90);
   yellow-yellow-100: palette-color-level('yellow', 100);
-  yellow-yellow-200: palette-color-level('yellow', 200);
-  yellow-yellow-300: palette-color-level('yellow', 300);
-  yellow-yellow-400: palette-color-level('yellow', 400);
-  yellow-yellow-500: palette-color-level('yellow', 500);
-  yellow-yellow-600: palette-color-level('yellow', 600);
-  yellow-yellow-700: palette-color-level('yellow', 700);
-  yellow-yellow-800: palette-color-level('yellow', 800);
-  yellow-yellow-900: palette-color-level('yellow', 900);
 
+  red-red-10: palette-color-level('red', 10);
+  red-red-20: palette-color-level('red', 20);
+  red-red-30: palette-color-level('red', 30);
+  red-red-40: palette-color-level('red', 40);
   red-red-50: palette-color-level('red', 50);
+  red-red-60: palette-color-level('red', 60);
+  red-red-70: palette-color-level('red', 70);
+  red-red-80: palette-color-level('red', 80);
+  red-red-90: palette-color-level('red', 90);
   red-red-100: palette-color-level('red', 100);
-  red-red-200: palette-color-level('red', 200);
-  red-red-300: palette-color-level('red', 300);
-  red-red-400: palette-color-level('red', 400);
-  red-red-500: palette-color-level('red', 500);
-  red-red-600: palette-color-level('red', 600);
-  red-red-700: palette-color-level('red', 700);
-  red-red-800: palette-color-level('red', 800);
-  red-red-900: palette-color-level('red', 900);
 
+  grey-grey-10: palette-color-level('grey', 10);
+  grey-grey-20: palette-color-level('grey', 20);
+  grey-grey-30: palette-color-level('grey', 30);
+  grey-grey-40: palette-color-level('grey', 40);
   grey-grey-50: palette-color-level('grey', 50);
+  grey-grey-60: palette-color-level('grey', 60);
+  grey-grey-70: palette-color-level('grey', 70);
+  grey-grey-80: palette-color-level('grey', 80);
+  grey-grey-90: palette-color-level('grey', 90);
   grey-grey-100: palette-color-level('grey', 100);
-  grey-grey-200: palette-color-level('grey', 200);
-  grey-grey-300: palette-color-level('grey', 300);
-  grey-grey-400: palette-color-level('grey', 400);
-  grey-grey-500: palette-color-level('grey', 500);
-  grey-grey-600: palette-color-level('grey', 600);
-  grey-grey-700: palette-color-level('grey', 700);
-  grey-grey-800: palette-color-level('grey', 800);
-  grey-grey-900: palette-color-level('grey', 900);
 }
 </style>

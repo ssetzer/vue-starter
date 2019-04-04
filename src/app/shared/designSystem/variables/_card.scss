@@ -3,6 +3,7 @@ $card-shadow: none;
 $card-border: 1px solid $brand-border-color;
 $card-border-radius: 0;
 $card-margin: 0;
+$card-color: $brand-text-color;
 
 $card-header-padding: $space-8 $space-16;
 $card-header-image-size: $space-40;
@@ -16,6 +17,5 @@ $card-header-subtitle-color: $brand-text-secondary-color;
 
 $card-body-padding: $space-8 $space-16;
 $card-body-font-size: inherit;
-$card-body-color: $brand-text-color;
 
 $card-footer-padding: $space-8;
